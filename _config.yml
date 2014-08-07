@@ -1,0 +1,12 @@
+# Site settings
+title: Hainke Eventservice
+email: info@hainke-eventservice.de
+description: "Transport Lagerung Messebau Fahrzeuglogistik/Flottenmanagement Chauffeur- und Shuttleservice Fahrzeugreinigung Projektassistenten und -leitung Teilprojektleitung"
+baseurl: ""
+url: "http://www.hainke-eventservice.de"
+twitter_username: jekyllrb
+xing_username: /profile/Stefan_Hainke
+
+# Build settings
+markdown: kramdown
+permalink: pretty

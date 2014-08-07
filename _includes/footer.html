@@ -1,0 +1,41 @@
+<footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        {% if site.xing_username %}<li>
+          <a href="https://xing.com/{{ site.xing_username }}">
+            <span class="icon xing">
+              <div data-type="XING/Share" data-counter="no_count" data-button-shape="small_square" data-url="www.xing.com/profiles/Stefan_Hainke"></div>
+<script>
+  ;(function (d, s) {
+    var x = d.createElement(s),
+      s = d.getElementsByTagName(s)[0];
+      x.src = "https://www.xing-share.com/js/external/share.js";
+      s.parentNode.insertBefore(x, s);
+  })(document, "script");
+</script>
+            </span>
+            <span class="username">{{ site.xing_username }}</span>
+          </a>
+        </li>{% endif %}
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">{{ site.description }}</p>
+    </div>
+
+  </div>
+
+</footer>
